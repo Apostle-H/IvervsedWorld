@@ -15,6 +15,7 @@ public class RotateWorldCommand : ICommand
 
     public void Execute()
     {
+        Debug.Log("Aboba");
         level.RotateAround(player.position, new Vector3(0, 0, 1), -90);
     }
 }

@@ -201,7 +201,7 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.028713048, y: -0.021567315}
-  m_Size: {x: 1.0458541, y: 1.8151999}
+  m_Size: {x: 1.194297, y: 1.8499763}
   m_Direction: 0
 --- !u!114 &6264174929256171108
 MonoBehaviour:
@@ -219,12 +219,11 @@ MonoBehaviour:
   animator: {fileID: 6644872465869248782}
   player: {fileID: 3958633025167686659}
   Feet: {fileID: 1200436643776770566}
-  GroundCheckRadius: 0
+  GroundCheckRadius: 0.1
   GroundLayer:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 8
   inputXSensivity: 30
-  velocityY: 0
   dead: 0
 --- !u!114 &3958633025167686656
 MonoBehaviour:
@@ -272,8 +271,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inputHandler: {fileID: 6264174929256171108}
   healthHoloder: {fileID: 8252941418626161304}
-  hasSprite: {fileID: 21300000, guid: 455a86afe4e893f4e9b93fdd63870659, type: 3}
-  lostSprite: {fileID: 21300000, guid: 0a2a5caae61abca43ad7a6f626232899, type: 3}
+  hasSprite: {fileID: 21300000, guid: 690df578503871849a8cecb730402263, type: 3}
+  lostSprite: {fileID: 21300000, guid: a7c24c9caec9bae43b850980d5f71ad3, type: 3}
   DieMenu: {fileID: 0}
 --- !u!95 &6644872465869248782
 Animator:
@@ -318,7 +317,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5209357123417456763}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.94, z: 0}
+  m_LocalPosition: {x: 0, y: -0.9371, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 3958633025167686659}
