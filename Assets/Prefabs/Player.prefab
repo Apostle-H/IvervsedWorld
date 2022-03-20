@@ -152,8 +152,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -750291459
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: b944f142fd4ad5c4289a85272bd4fd7c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -253,7 +253,7 @@ MonoBehaviour:
   rb: {fileID: 3958633025167686661}
   MoveSpeed: 5
   MoveSmoothTime: 0.2
-  JumpForce: 7
+  JumpForce: 5
   spriteRenderer: {fileID: 3958633025167686658}
   healthManager: {fileID: 7056645074086801462}
   level: {fileID: 0}
@@ -458,7 +458,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
-  m_SortingLayerID: 0
+  m_SortingLayerID: -750291459
   m_SortingOrder: 0
   m_TargetDisplay: 0
 --- !u!114 &287846377902621721
